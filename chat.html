@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Auryn AI — Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="chat-top">
+    <div class="brand small">⚡ Auryn<span>AI</span></div>
+    <a href="index.html" class="back">← Home</a>
+  </header>
+
+  <main class="chat-wrap">
+    <section id="messages" class="chat-window" aria-live="polite">
+      <!-- messages will be injected here -->
+    </section>
+
+    <form id="composer" class="composer" onsubmit="return false;">
+      <input id="input" autocomplete="off" placeholder="Type your message here..." />
+      <button id="send" type="button" aria-label="Send">Send</button>
+    </form>
+  </main>
+
+  <script src="main.js">
+  </script>
+</body>
+</html>
